@@ -11,12 +11,12 @@ $ pip install psutil
 
 * Replace  **The IP adress of your bulb**.
 ```python
-// edit this line
+# edit this line
 light = LB130("10.0.0.11")
 ```  
 * Change the max network speed value of your network.
 ```python
-// convert the value in Mbits/s before
+# convert the value in Mbits/s before
 maxValueOfNetwork = 3.7 # Mbits/s for me :( 
 ```  
 * You can replace the download speed by the upload speed.
